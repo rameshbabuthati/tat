@@ -9,6 +9,7 @@ def simulate_trading(prices, signals, initial_cash=10000, max_position_frac=0.5)
     Returns:
         trade_log (list of dict), final_cash, final_position, final_portfolio_value
     """
+    
     cash = initial_cash
     position = 0  # number of shares
     trade_log = []
